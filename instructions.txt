@@ -1,0 +1,67 @@
+============================================================
+  Flashcards GUI - User Instructions
+  COMP.CS.115 Programming 3: Interfaces
+  Author: Manh Tran (manh.tran@tuni.fi)
+============================================================
+
+------------------------------------------------------------
+OVERVIEW
+------------------------------------------------------------
+This is a Qt-based GUI application for managing and studying
+flashcard decks. You can import decks from files, create your
+own, edit card data, and practice using two study modes.
+
+------------------------------------------------------------
+GETTING STARTED
+------------------------------------------------------------
+1. Build: Use qmake and make to compile.
+2. Launch: Run ./flashcards_gui.
+3. Files: Ensure test files (months.txt, numbers.txt,
+   weekdays.txt) are in the same folder as the binary.
+
+------------------------------------------------------------
+DECK & CARD MANAGEMENT
+------------------------------------------------------------
+- Loading: Enter a filename (e.g., numbers.txt) and click 
+  "Load File". Leave blank to open a file browser.
+- Decks: Use "Add Deck" to create a new one (provide a name
+  and semicolon-separated fields like EN;FI;DE). Use
+  "Remove Deck" to delete the selected deck.
+- Cards: Select a deck to view cards.
+    - Add/Edit: Use the buttons to open the form below the
+      table. All fields must be filled.
+    - Remove: Select a row in the table and click "Remove".
+
+------------------------------------------------------------
+STUDY MODES
+------------------------------------------------------------
+Select a deck and click "Study" to choose between:
+1. Flip Cards: Choose front/back fields. Click "Flip" to see
+   the answer. Use "Previous/Next" to navigate.
+2. Answer Questions: Choose prompt/answer fields and the
+   number of cards to study. Type answers and click "Submit".
+   Correct/incorrect feedback is provided instantly, and a
+   final summary is displayed after finishing.
+
+------------------------------------------------------------
+IMPLEMENTED FEATURES
+------------------------------------------------------------
+- Core: View decks/cards, load/add/remove decks, remove cards,
+  and exit.
+- Card Operations: Add, edit (with pre-filled forms), and
+  validate data (no empty fields).
+- Study Modes: Flip mode and Answer/Question mode with:
+    - Random card ordering.
+    - Real-time scoring and color-coded feedback.
+    - Locked answers after submission.
+    - Final summary report.
+    - Field validation (no overlapping front/back/prompt).
+
+------------------------------------------------------------
+TESTING TIPS
+------------------------------------------------------------
+- Use months.txt to test a full feature set.
+- Try editing a card (e.g., change "January" to "Jan") and
+  verify the table updates correctly.
+- Test answer validation by entering wrong answers to see
+  the score update.

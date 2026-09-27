@@ -1,0 +1,55 @@
+# ---- Qt Creator build directories ----
+build/
+build-*/
+
+# ---- Compiled object files ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ---- Executables ----
+*.exe
+*.out
+*.app
+
+# ---- Qt / qmake generated files ----
+*.qmake.stash
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+.qmake.cache
+.qmake.stash
+*.autosave
+
+# ---- Qt Creator misc ----
+.qtc_clangd/
+*.qtc_clangd
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# ---- MOC / UIC / RCC generated files ----
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# ---- Object scripts ----
+object_script.*
+
+# ---- OS-specific junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.vs/
+*.swp

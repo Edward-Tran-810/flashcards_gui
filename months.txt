@@ -1,0 +1,14 @@
+Months;4
+EN;FI;FR;Latin
+January;Tammikuu;Janvier;Januarius
+February;Helmikuu;Fevrier;Februarius
+March;Maaliskuu;Mars;Martius
+April;Huhtikuu;Avril;Aprilis
+May;Toukokuu;Mai;Maius
+June;Kesakuu;Juin;Junius
+July;Heinakuu;Juillet;Julius
+August;Elokuu;Aout;Augustus
+September;Syyskuu;Septembre;September
+October;Lokakuu;Octobre;October
+November;Marraskuu;Novembre;November
+December;Joulukuu;Decembre;December

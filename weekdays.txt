@@ -1,0 +1,9 @@
+Weekdays;4
+EN;FI;FR;Latin
+Monday;Maanantai;Lundi;Dies Lunae
+Tuesday;Tiistai;Mardi;Dies Martis
+Wednesday;Keskiviikko;Mercredi;Dies Mercurii
+Thursday;Torstai;Jeudi;Dies Iovis
+Friday;Perjantai;Vendredi;Dies Veneris
+Saturday;Lauantai;Samedi;Dies Saturni
+Sunday;Sunnuntai;Dimanche;Dies Solis

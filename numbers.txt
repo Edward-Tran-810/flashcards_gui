@@ -1,0 +1,7 @@
+Numbers;3
+EN;DE;ES
+one;eins;uno
+two;zwei;dos
+three;drei;tres
+four;vier;quatro
+five;funf;cinco
